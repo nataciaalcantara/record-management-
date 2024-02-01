@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Record UI</title>
+  <style>
+     table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      border: 1px solid #d1b6b6;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #0a0909;
+      color: #ddece4;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f3e0e0;
+      }
+  
+  </style>
+</head>
+
+<body>
+  <header>
+    
+    <button class="back-button" onclick="goBack()">Back</button>
+    <center><h1>Record Management System</h1></center>
+  </header>
+  
+  <div class="record-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Control No.</th>
+          <th>Name of Request</th>
+          <th>Client Name</th>
+          <th>Checked By</th>
+          <th>Name of Receiver </th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Jan 23,2024</td>
+          <td>15117</td>
+          <td>Buliding Permit</td>
+          <td>Jan 10, 2024</td>
+          <td>Jan 30, 2024</td>
+          <td>Cha Eun Woo</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+          <td>Client 2</td>
+          <td>urgent</td>
+          <td>Buliding Permit</td>
+          <td>Jan 10, 2024</td>
+          <td>Jan 30, 2024</td>
+          <td>Cha Eun Woo</td>
+            <td>Done</td>
+        </tr>
+        <td>Client 3</td>
+        <td>urgent</td>
+        <td>Buliding Permit</td>
+        <td>Jan 10, 2024</td>
+        <td>Jan 30, 2024</td>
+        <td>Cha Eun Woo</td>
+          <td>Done</td>
+        </tr>
+        <td>Client 4</td>
+        <td>urgent</td>
+        <td>Buliding Permit</td>
+        <td>Jan 10, 2024</td>
+        <td>Jan 30, 2024</td>
+        <td>Cha Eun Woo</td>
+          <td>Done</td>
+        </tr>
+        <td>Client 5</td>
+        <td>urgent</td>
+        <td>Buliding Permit</td>
+        <td>Jan 10, 2024</td>
+        <td>Jan 30, 2024</td>
+        <td>Cha Eun Woo</td>
+          <td>Done</td>
+        </tr>
+        <td>Client 6</td>
+        <td>urgent</td>
+        <td>Buliding Permit</td>
+        <td>Jan 10, 2024</td>
+        <td>Jan 30, 2024</td>
+        <td>Cha Eun Woo</td>
+          <td>Done</td>
+      </tbody>
+    </table>
+  </div>
+
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</body>
+
+</html>

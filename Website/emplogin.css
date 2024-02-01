@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("city hall.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+  background-color: #f4f4f4;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  width: 500%;
+  margin: 100px auto;
+}
+
+.login-form {
+  padding: 20px;
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #0d0d0e;
+  margin: 0;
+}
+
+p {
+  color: #020202;
+  margin-top: 5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(14, 2, 2, 0.5);
+  width: 500px;
+  margin: 200px;
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+i {
+  position: absolute;
+  top: 50%;
+  left: 19px;
+  transform: translateY(-50%);
+  color: #101111;
+}
+
+input {
+  width: calc(100% - 30px);
+  padding: 10px;
+  padding-left: 30px;
+  border: 2px solid #1f1d1d;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+.login-container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.form-text {
+  display: block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #007bff;
+  font-size: 14px;
+}
+
+.form-text:hover {
+  text-decoration: underline;
+}
